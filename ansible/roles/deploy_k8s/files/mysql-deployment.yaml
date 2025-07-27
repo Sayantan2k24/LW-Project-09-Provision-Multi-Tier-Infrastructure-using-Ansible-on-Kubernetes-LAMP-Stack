@@ -21,7 +21,7 @@ spec:
         - containerPort: 3306
         env:
         - name: MYSQL_ROOT_PASSWORD
-          value: root
+          value: root # apache pod will use root user to login - and with this password
         - name: MYSQL_DATABASE
           value: mydb
         volumeMounts:
