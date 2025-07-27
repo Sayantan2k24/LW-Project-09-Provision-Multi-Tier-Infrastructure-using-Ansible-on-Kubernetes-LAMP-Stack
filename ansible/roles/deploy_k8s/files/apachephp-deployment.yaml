@@ -23,8 +23,8 @@ spec:
           - name: DB_HOST
             value: mysql # DNS or Service name of the Mysql Pod
           - name: DB_USER
-            value: root # this is admin user of mysql server
+            value: apache
           - name: DB_PASSWORD
-            value: root # so it has to be root level password / not general one / as using root user to login
+            value: mypass
           - name: DB_NAME
             value: mydb
