@@ -34,6 +34,6 @@ spec:
       #     claimName: mysql-pvc
 
       # for testing - use emptyDir
-        volumes:
-        - name: mysql-storage
-          emptyDir: {}
+    volumes:
+    - name: mysql-storage
+      emptyDir: {}
